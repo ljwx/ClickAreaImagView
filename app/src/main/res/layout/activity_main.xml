@@ -13,5 +13,6 @@
         app:tag1_bottom="80dp"
         app:tag1_left="20dp"
         app:tag1_right="80dp"
-        app:tag1_top="20dp" />
+        app:tag1_top="20dp"
+        app:drawArea="true"/>
 </LinearLayout>
