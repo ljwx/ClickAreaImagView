@@ -47,14 +47,12 @@ public class ClickAreaImageView extends AppCompatImageView {
         mPaint.setColor(Color.BLUE);
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setStrokeWidth(5);
-        Log.e("ljwx", "0");
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         if (mDrawArea) {
-            Log.e("ljwx", "1");
             canvas.drawRect(mTag1Point[0], mTag1Point[1], mTag1Point[2], mTag1Point[3], mPaint);
             canvas.drawRect(mTag2Point[0], mTag2Point[1], mTag2Point[2], mTag2Point[3], mPaint);
         }
@@ -66,18 +64,6 @@ public class ClickAreaImageView extends AppCompatImageView {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         canCall(event);
-//        switch (event.getAction()) {
-//            case MotionEvent.ACTION_DOWN:
-//                Log.e("ljwx", "dd");
-//                break;
-//            case MotionEvent.ACTION_MOVE:
-//                Log.e("ljwx", "mm");
-//                break;
-//            case MotionEvent.ACTION_UP:
-//                Log.e("ljwx", "uu");
-//                break;
-//        }
-        Log.e("ljwx", "2");
         return true;
     }
 
@@ -94,7 +80,6 @@ public class ClickAreaImageView extends AppCompatImageView {
                 xD2 = event.getX();
                 yD1 = event.getY();
                 yD2 = event.getY();
-                Log.e("ljwx", "down");
                 break;
             case MotionEvent.ACTION_UP:
                 xU1 = event.getX();
@@ -123,7 +108,6 @@ public class ClickAreaImageView extends AppCompatImageView {
                         mTag2Listener.call();
                     }
                 }
-                Log.e("ljwx", "up");
                 break;
         }
     }
