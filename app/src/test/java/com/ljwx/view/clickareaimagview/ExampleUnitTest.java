@@ -1,4 +1,4 @@
-package view.ljwx.com.clickareaimagview;
+package com.ljwx.view.clickareaimagview;
 
 import org.junit.Test;
 

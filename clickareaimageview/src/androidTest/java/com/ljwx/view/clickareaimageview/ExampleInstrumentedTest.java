@@ -1,4 +1,4 @@
-package view.ljwx.com.clickareaimagview;
+package com.ljwx.view.clickareaimageview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("view.ljwx.com.clickareaimagview", appContext.getPackageName());
+        assertEquals("view.ljwx.com.clickareaimageview.test", appContext.getPackageName());
     }
 }

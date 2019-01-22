@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "view.ljwx.com.clickareaimagview"
+        applicationId "com.ljwx.view.clickareaimagview"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1

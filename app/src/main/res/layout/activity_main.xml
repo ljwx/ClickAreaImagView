@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
-
-    <view.ljwx.com.clickareaimageview.ClickAreaImageView
+    <com.ljwx.view.ClickAreaImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/game_stone2" />
+        android:src="@mipmap/game_stone2"
+        app:tag1_bottom="80dp"
+        app:tag1_left="20dp"
+        app:tag1_right="80dp"
+        app:tag1_top="20dp" />
 </LinearLayout>
