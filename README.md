@@ -39,6 +39,6 @@ allprojects {
   在需要引用的module的build里添加
   ```java
  dependencies {
-	implementation 'com.github.ljwx:ClickAreaImagView:1.0.0'
+	implementation 'com.github.ljwx:ClickAreaImagView:1.0.01'
 }
   ```
