@@ -42,13 +42,3 @@ allprojects {
 	implementation 'com.github.ljwx:ClickAreaImagView:1.0.01'
 }
   ```
-  
-```mermaid
- graph LR //TD是竖向
- A[方形]--> flagB(圆角)--> C{条件}
-
- C--> |true| 结果
- C--> |false| 结果2
-
- flagB-->E
-```
